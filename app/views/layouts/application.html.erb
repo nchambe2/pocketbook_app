@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pocketbook</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <img src="http://s3.amazonaws.com/codecademy-content/projects/pocketbook/logo.svg" width="50">
+  </div>
+</div>
+<%= yield %>
+
+<div class="footer">
+  <div class="container">
+    <ul>
+      <%= link_to "Contact", 'contact' %>
+      <%= link_to "Help Center", 'help' %>
+      <%= link_to "About", 'about' %>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

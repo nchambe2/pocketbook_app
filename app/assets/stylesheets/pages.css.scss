@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family:'Montserrat', sans-serif;
+}
+.container {
+  width: 940px;
+}
+html, body {
+  height: 500px;
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header {
+  padding-top: 40px;
+  text-align: center;
+}
+.header .container {
+  border-bottom: 1px solid #fff;
+}
+.header img {
+  height: 70px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+.main h1 {
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.control-label {
+  color: #fff;
+  font-weight: 600px;
+}
+.main .form-group {
+  padding-bottom: 20px;
+}
+.btn-default {
+  background-color: #125F6B;
+  border-color: #125F6B;
+  color: #fff;
+  float: right;
+  margin-top: 20px;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #14489B;
+  border-color: #14489B;
+  box-shadow:0 2px 4px rgba(0, 0, 0, .5);
+}
+.footer {
+  padding-top: 30px;
+  text-align: center;
+}
+.footer .container {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #125F6B;
+  text-decoration: none;
+}
+.footer li {
+  display: inline;
+  padding-left: 40px;
+}
